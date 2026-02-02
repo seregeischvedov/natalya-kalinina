@@ -1,0 +1,82 @@
+/*
+Theme Name: Наталья Калинина - Психолог
+Theme URI: https://kalinina-psy.ru
+Author: Genspark Website Agent
+Author URI: https://genspark.ai
+Description: Профессиональная тема WordPress для сайта-визитки психолога, психотерапевта и коуча. Адаптивный дизайн, современный интерфейс, полная поддержка мобильных устройств.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kalinina-psy
+Tags: psychology, psychotherapy, coaching, business-card, responsive, custom-menu, featured-images
+
+Тема создана специально для Натальи Калининой - психолога, психотерапевта и коуча.
+*/
+
+/* ===================================
+   ИМПОРТ ОСНОВНЫХ СТИЛЕЙ
+   =================================== */
+
+/* Все стили из style.css уже включены в файл css/style.css темы */
+
+/* Дополнительные WordPress-специфичные стили */
+
+.wp-block-image {
+    margin: 2rem 0;
+}
+
+.wp-block-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.alignleft {
+    float: left;
+    margin: 0 2rem 1rem 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0 0 1rem 2rem;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Поддержка редактора Gutenberg */
+.wp-block {
+    max-width: 800px;
+}
+
+/* Комментарии */
+.comments-area {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--border-color);
+}
+
+.comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: var(--bg-light);
+    border-radius: 8px;
+}
+
+/* Админ-бар */
+.admin-bar .header {
+    top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+    .admin-bar .header {
+        top: 46px;
+    }
+}
